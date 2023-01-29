@@ -39,6 +39,9 @@ textarea {
 }
 
 .time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgb(244, 242, 242);
   width: 150px;
   height: 65px;
@@ -88,4 +91,9 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.trash:hover {
+  color: aliceblue;
+  cursor: pointer;
 }
